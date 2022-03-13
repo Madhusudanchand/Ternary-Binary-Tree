@@ -33,6 +33,7 @@ int main()
 	inorder_2(root);
 	printf("\nPostorder traversal of the ternary tree is : \n");
 	postorder(root);
+	free(root);
 	return 0;
 }
 
@@ -62,6 +63,7 @@ struct node *create()
 		ptr->right=create();
 	}
 	return ptr;
+	free(ptr);
 }
 
 void preorder(struct node *mad)
