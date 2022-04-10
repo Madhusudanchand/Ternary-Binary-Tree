@@ -1,2 +1,2 @@
 # Ternary-Binary-Tree
-#binery tree
+#binary tree
